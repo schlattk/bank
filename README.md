@@ -33,15 +33,10 @@ Tested using Jasmine
 
 11 Tests 0 failures
 
-Console instructions are as below:
+## Console instructions ##
 
 - myacc = new Account();
-- Object { balance: 0, record: Array[0] }
-- myacc.withdraw(1000)
-- myacc.withdraw(1000)
-- myacc.deposit(2000)
+- myacc.withdraw(1000);
+- myacc.withdraw(1000);
+- myacc.deposit(2000);
 - Statement.print(myacc);
-- date    || credit || debit || balance  
-- 7/3/2017||--------|| 1000  || -1000  
-- 7/3/2017||--------|| 1000  || -2000  
-- 7/3/2017||  2000  ||-------|| 0
