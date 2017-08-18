@@ -1,9 +1,6 @@
 # bank
-bank tech test
-User Stories:
-## Techtest Bank ##
 
-## Overview User Stories ##
+## User Stories ##
 
 As a user I want to keep money in my bank account
 
