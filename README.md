@@ -1,6 +1,9 @@
 # bank
 bank tech test
 User Stories:
+## Techtest Bank ##
+
+## Overview User Stories ##
 
 As a user I want to keep money in my bank account
 
@@ -15,10 +18,13 @@ As a user I want to be able to see a bank statement such as this:
 - 13/01/2012 || 2000.00||---------|| 3000.00
 - 10/01/2012 || 1000.00||---------|| 1000.00
 
-Implemented in Ruby using 2 classes:
+## Technology ##
+
+Implemented in Javascript using 2 classes:
 
 Account: this class has the balance, the account-history as well as the ability to
 withdraw and deposit money.
+
 Statement: provides the ability and formatting for printing the statement.
 It is passes into Account as an argument.
 
@@ -26,6 +32,9 @@ This implemented using the prototype constructor pattern as well as the revealin
 module patter for the statement module. The idea is for this module to be reusable
 by other types of accounts.
 
+Tested using Jasmine 
+
+11 Tests 0 failures
 
 Console instructions are as below:
 
